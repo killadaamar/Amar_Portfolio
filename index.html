@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amar Sai Teja Killada Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> Amar Sai Teja Killada Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="mode-toggle">Toggle Dark/Light Mode</button>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="Amar.png" alt="My Photo" class="profile-photo">
+        <p>🚀 <strong>Data Scientist | AI/ML Engineer | Problem Solver | Insight-Driven Innovator</strong></p>
+        <p>With over 4 years of hands-on experience in transforming raw data into actionable insights, I specialize in building data-driven solutions that drive business growth and innovation.</p>
+        <p>🔍 I thrive on uncovering patterns in complex datasets and translating them into strategic decisions.</p>
+        <p>💡 Tools & Technologies: Python, SQL, TensorFlow, Scikit-learn, Power BI, Tableau, Azure, and more.</p>
+        <p>🌱 Always learning, always curious — I’m passionate about staying ahead in the fast-evolving world of data science and AI.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Gen AI</li>
+            <li>Data Visualization</li>
+            <li>End-to-End Data Science Pipelines</li>
+            <li>Python, SQL</li>
+            <li>TensorFlow, Scikit-learn</li>
+            <li>Power BI</li>
+            <li>Azure</li>
+            <li>NLP</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>ASML Machinery's products Price Prediction:</strong> Developed a regression + classification-based machine learning model to predict tools, parts, cables prices to improve price prediction.</li>
+            <li><strong>ASML Mail Classification:</strong> ASML receives numerous emails containing related machines creation requirements from different departments. Manually processing these emails to extract Machine parts specifications and classify them by department is time-consuming and error prone. The goal is to build an automated system for this.</li>
+        </ul>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="Amar_DataScientist_Resume.pdf" target="_blank">Download my resume</a></p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:killada.amar@gmail.com">killada.amar@gmail.com</a></p>
+        <p>Phone: <a href="tel:+91-9666150755">+91-9666150755</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/killada-amar-sai-teja-229160215/" target="_blank">Amar Sai Teja Killada</a></p>
+        <p>Let's connect if you’re interested in data-driven transformation, collaboration, or just a good conversation about the future of AI!</p>
+    </section>
+
+    <script>
+        const toggleButton = document.getElementById('mode-toggle');
+        toggleButton.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>

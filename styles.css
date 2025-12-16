@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background: #333;
+    color: #93b4db;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+section#about {
+    position: relative;
+    background: #f4f4f4;
+}
+
+section#skills {
+    background: #e2e2e2;
+}
+
+section#projects {
+    background: #d4d4d4;
+}
+
+section#resume {
+    background: #c2c2c2;
+}
+
+section#contact {
+    background: #b4b4b4;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #121212;
+    color: #4f8b81;
+}
+
+.dark-mode header {
+    background-color: #1e1e1e;
+    color: #c15d8e;
+}
+
+.dark-mode nav ul li a {
+    color: #91af4e;
+}
+
+.dark-mode section {
+    background-color: #1e1e1e;
+    color: #684cc4;
+}
+
+.dark-mode a {
+    color: #f9d490;
+}
